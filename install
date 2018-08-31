@@ -1,7 +1,9 @@
 # Quick install script for automation purposes
 cd ~/
-sudo apt install git vim zsh
+sudo apt install git vim zsh python3-pip
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 git clone https://github.com/Multipixelone/servers.git
 cp .vimrc ~/
 cp .zshrc ~/
+sudo pip3 install setuptools
+sudo pip3 install powerline-status
